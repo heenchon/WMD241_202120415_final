@@ -47,41 +47,52 @@ p {
   image-rendering: pixelated; /* Chrome                         */
   image-rendering: optimize-contrast; /* CSS3 Proposed                  */
 }
+
 .bg-src-1 {
   position: absolute;
   background-color: #0069cd;
-  background-image: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax1.png");
+  background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax1.png');
 }
+
 .bg-src-2 {
   position: absolute;
-  background-image: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax2.png");
+  background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax2.png');
 }
+
 .bg-src-3a {
-  background-image: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax3a.png");
+  background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax3a.png');
 }
+
 .bg-src-3b {
-  background-image: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax3b.png");
+  background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax3b.png');
 }
+
 .bg-src-4 {
-  background-image: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax3b.png");
+  background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax3b.png');
 }
+
 .bg-src-5 {
-  background-image: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax4.png");
+  background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax4.png');
 }
+
 .bg-src-6 {
-  background-image: url("https://www.stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax6.png");
+  background-image: url('https://www.stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax6.png');
 }
+
 .bg-src-7 {
-  background-image: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax7.png");
+  background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax7.png');
 }
+
 .bg-src-8 {
-  background-image: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax8.png");
+  background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax8.png');
 }
+
 .bg-src-9 {
-  background-image: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax9.png");
+  background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax9.png');
 }
+
 .bg-src-10 {
-  background-image: url("https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax10.png");
+  background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax10.png');
 }
 
 .divider {
@@ -90,7 +101,7 @@ p {
   height: 541px;
   margin-top: -280px;
   line-height: 0;
-  background-image: url("https://stardewvalley.net/wp-content/uploads/2017/12/sdv_divider.png");
+  background-image: url('https://stardewvalley.net/wp-content/uploads/2017/12/sdv_divider.png');
   background-attachment: scroll;
   background-position: center;
 }
@@ -105,16 +116,19 @@ p {
   border-radius: 7px;
   box-shadow: 0 5px 0 rgb(120, 126, 119);
 }
+
 .button:hover {
   bottom: 5px;
   left: 3px;
   cursor: pointer;
   box-shadow: -2px 7px 0 rgb(120, 126, 119);
 }
+
 .button a {
   color: #fcf9f1;
   text-decoration: none;
 }
+
 .container {
   background: linear-gradient(-180deg, #fae791, #fffccc);
 }
@@ -127,11 +141,13 @@ p {
 .intro {
   padding-block: 64px 64px;
 }
+
 .intro h1 {
   margin-bottom: 28px;
   font-size: 48px;
   font-weight: 800;
 }
+
 .intro p {
   font-size: 17px;
   animation-name: slidein;
@@ -140,18 +156,20 @@ p {
   from {
     margin-left: 100%;
   }
+
   to {
     margin-left: 0%;
   }
 }
+
 .intro img {
   width: 100%;
   max-width: 45%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 6px;
 }
+
 .intro .button {
   max-width: 120px;
   margin-top: 24px;
@@ -175,6 +193,7 @@ p {
   gap: 12px 16px;
   margin-bottom: 54px;
 }
+
 .category-wrapper img {
   width: 48px;
   margin-right: 12px;
@@ -189,33 +208,37 @@ p {
   border-bottom-width: 3.8px;
   border-radius: 10px;
 }
+
 .category:hover {
   display: block;
   background-color: aquamarine;
 }
+
 .category:hover .none {
   display: block;
 }
 
-.none {
+.display-none {
   display: none;
 }
-.none a {
+
+.display-none a {
   color: #71684f;
   text-decoration: none;
 }
-.none a:hover {
+
+.display-none a:hover {
   color: #362802;
   text-decoration: underline;
 }
 
-.commingSoon h2 {
+.comming h2 {
   margin-bottom: 20px;
   font-size: 32px;
   font-weight: 760;
 }
 
-.commingSoon-container {
+.comming-container {
   display: flex;
 }
 
@@ -230,7 +253,7 @@ p {
   margin-inline: auto;
 }
 
-.link--block {
+.link-block {
   display: flex;
   gap: 32px;
 }
@@ -243,10 +266,6 @@ p {
 .block-container-2 {
   display: flex;
   flex-direction: column;
-}
-
-.link-block {
-  display: flex;
 }
 
 .copyright {
