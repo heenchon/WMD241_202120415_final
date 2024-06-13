@@ -214,7 +214,7 @@ p {
   background-color: aquamarine;
 }
 
-.category:hover .none {
+.category:hover #block {
   display: block;
 }
 
