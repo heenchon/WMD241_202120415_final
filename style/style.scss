@@ -18,6 +18,15 @@ p {
   color: #362802;
 }
 
+a {
+  color: #fcf9f1;
+  text-decoration: none;
+}
+
+a:visited {
+  // text-decoration: none;
+}
+
 .logo-wrapper {
   // position: absolute;
   // width: 100%;
@@ -146,15 +155,6 @@ p {
     // background-color: #ff8112;
     box-shadow: -2px 7px 0 rgb(120 126 119);
   }
-
-  a {
-    color: #fcf9f1;
-    text-decoration: none;
-  }
-
-  a:visited {
-    // text-decoration: none;
-  }
 }
 
 .container {
@@ -248,20 +248,14 @@ p {
 
   &:hover {
     display: block;
-    background-color: aquamarine;
-
-    .none {
-      display: block;
-    }
   }
 }
 
-.none {
+.display-none {
   display: none;
 
   a {
     color: #71684f;
-    text-decoration: none;
 
     &:hover {
       color: #362802;
@@ -270,7 +264,7 @@ p {
   }
 }
 
-.commingSoon {
+.comming {
   h2 {
     margin-bottom: 20px;
     font-size: 32px;
@@ -278,7 +272,7 @@ p {
   }
 }
 
-.commingSoon-container {
+.comming-container {
   display: flex;
 }
 
@@ -293,7 +287,7 @@ p {
   margin-inline: auto;
 }
 
-.link--block {
+.link-block {
   display: flex;
   gap: 32px;
 }
@@ -306,10 +300,6 @@ p {
 .block-container-2 {
   display: flex;
   flex-direction: column;
-}
-
-.link-block {
-  display: flex;
 }
 
 .copyright {

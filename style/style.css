@@ -18,6 +18,11 @@ p {
   color: #362802;
 }
 
+a {
+  color: #fcf9f1;
+  text-decoration: none;
+}
+
 .logo {
   position: absolute;
   top: 200px;
@@ -124,11 +129,6 @@ p {
   box-shadow: -2px 7px 0 rgb(120, 126, 119);
 }
 
-.button a {
-  color: #fcf9f1;
-  text-decoration: none;
-}
-
 .container {
   background: linear-gradient(-180deg, #fae791, #fffccc);
 }
@@ -211,11 +211,6 @@ p {
 
 .category:hover {
   display: block;
-  background-color: aquamarine;
-}
-
-.category:hover #block {
-  display: block;
 }
 
 .display-none {
@@ -224,7 +219,6 @@ p {
 
 .display-none a {
   color: #71684f;
-  text-decoration: none;
 }
 
 .display-none a:hover {
