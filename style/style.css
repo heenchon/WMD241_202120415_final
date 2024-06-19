@@ -130,7 +130,28 @@ a {
 }
 
 .container {
+  display: flex;
+  align-items: flex-start;
   background: linear-gradient(-180deg, #fae791, #fffccc);
+}
+
+.sidebar {
+  position: sticky;
+  top: 120px;
+  max-width: 66px;
+  margin-top: 180px;
+  background-color: #36a312;
+  border-radius: 8px 0 0 8px;
+}
+
+.sidebar li {
+  margin-bottom: 2px;
+  list-style: none;
+}
+
+.sidebar-container {
+  margin-block: 6px 0;
+  margin-inline: 4px 6px;
 }
 
 .content {
@@ -152,6 +173,7 @@ a {
   font-size: 17px;
   animation-name: slidein;
 }
+
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -237,13 +259,19 @@ a {
 }
 
 .footer {
-  background-color: #fff;
+  color: #362802;
+  background-color: #fcf9f1;
+}
+
+#footer a {
+  color: #362802;
 }
 
 .link-wrapper {
   display: flex;
   gap: 32px;
   max-width: 80%;
+  padding-top: 66px;
   margin-inline: auto;
 }
 
@@ -266,5 +294,6 @@ a {
   gap: 32px;
   max-width: 80%;
   margin-inline: auto;
+  margin-top: 66px;
   text-align: center;
 }
