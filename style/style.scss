@@ -304,6 +304,12 @@ a:hover {
 
 .comming-container {
   display: flex;
+  gap: 12px;
+
+  img {
+    border: solid 1.5px #dcc372;
+    border-radius: 8px;
+  }
 }
 
 .footer {

@@ -183,7 +183,6 @@ a:hover {
   font-size: 17px;
   animation-name: slidein;
 }
-
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -266,6 +265,12 @@ a:hover {
 
 .comming-container {
   display: flex;
+  gap: 12px;
+}
+
+.comming-container img {
+  border: solid 1.5px #dcc372;
+  border-radius: 8px;
 }
 
 .footer {
